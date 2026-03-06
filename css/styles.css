@@ -876,6 +876,7 @@ button {
 }
 
 .subscribe-icon {
+    margin-left: 16px;
     fill: currentColor;
 }
 
