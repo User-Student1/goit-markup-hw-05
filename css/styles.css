@@ -10,9 +10,9 @@
     --light: #f4f4fd;
     --white: #ffffff;
     --modal-background: #fcfcfc;
-    --modal-overlay: rgba(46, 47, 66, 0.4);
+    --modal-overlay: rgba(46, 47, 66, 0.2);
     --input-border: rgba(46, 47, 66, 0.2);
-    --placeholder-color: rgba(46, 47, 66, 0.4);
+    --placeholder-color: rgba(46, 47, 66, 0.2);
     --checkbox-border: rgba(46, 47, 66, 0.2);
     --close-btn-border: rgba(0, 0, 0, 0.1);
     --hero-gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
@@ -598,6 +598,10 @@ button {
     margin-bottom: 8px;
 }
 
+.form-field-textarea {
+    margin-bottom: 16px;
+}
+
 .form-label {
     display: block;
     font-size: 12px;
@@ -873,4 +877,10 @@ button {
 
 .subscribe-icon {
     fill: currentColor;
+}
+
+.subscribe-label {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
