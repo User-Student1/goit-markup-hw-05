@@ -10,10 +10,10 @@
     --light: #f4f4fd;
     --white: #ffffff;
     --modal-background: #fcfcfc;
-    --modal-overlay: rgba(46, 47, 66, 0.2);
-    --input-border: rgba(46, 47, 66, 0.2);
-    --placeholder-color: rgba(46, 47, 66, 0.2);
-    --checkbox-border: rgba(46, 47, 66, 0.2);
+    --modal-overlay: rgba(46, 47, 66, 0.4);
+    --input-border: rgba(46, 47, 66, 0.4);
+    --placeholder-color: rgba(46, 47, 66, 0.4);
+    --checkbox-border: rgba(46, 47, 66, 0.4);
     --close-btn-border: rgba(0, 0, 0, 0.1);
     --hero-gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
     --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -764,7 +764,7 @@ button {
 
 .submit-btn:hover,
 .submit-btn:focus {
-    background-color: var(--pressed-state) ;
+    background-color: var(--pressed-state);
 }
 
 /* Footer subscribe form*/
@@ -834,10 +834,10 @@ button {
     border: 1px solid var(--white);
     border-radius: 4px;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 2;
     letter-spacing: 0.04em;
     color: var(--white);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     outline: none;
     transition: border-color var(--transition);
 }
