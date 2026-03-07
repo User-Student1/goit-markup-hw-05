@@ -703,8 +703,8 @@ button {
     cursor: pointer;
 }
 
-span.checkbox-custom {
-    display: inline-flex;
+.checkbox-custom {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 16px;
@@ -712,21 +712,26 @@ span.checkbox-custom {
     border: 1px solid var(--checkbox-border);
     border-radius: 2px;
     margin-right: 8px;
-    fill: transparent;
     transition: background-color var(--transition), border var(--transition), fill var(--transition);
     flex-shrink: 0;
+}
+/* fill: transparent;*/
+
+.checkbox-icon {
+    fill: transparent;
+    transition: fill var(--transition);
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-custom {
     background-color: var(--pressed-state);
     border: none;
+}
+
+.checkbox-input:checked + .checkbox-label .checkbox-custom .checkbox-icon {
     fill: var(--light);
 }
 
-.checkbox-input:focus + .checkbox-label .checkbox-custom {
-    border-color: var(--primary-brand);
-}
-
+.checkbox-input:focus + .checkbox-label .checkbox-custom, 
 .checkbox-label:hover .checkbox-custom {
     border-color: var(--primary-brand);
 }
