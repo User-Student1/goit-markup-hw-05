@@ -703,7 +703,7 @@ button {
     cursor: pointer;
 }
 
-.checkbox-custom {
+span.checkbox-custom {
     display: inline-flex;
     justify-content: center;
     align-items: center;
