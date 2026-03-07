@@ -705,6 +705,7 @@ button {
 
 .checkbox-custom {
     display: inline-flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     width: 16px;
