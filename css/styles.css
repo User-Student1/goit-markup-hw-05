@@ -694,7 +694,6 @@ button {
 }
 
 .checkbox-label {
-    display: flex;
     align-items: center;
     font-size: 12px;
     line-height: 1.17;
@@ -737,6 +736,7 @@ button {
 .checkbox-input:checked + .checkbox-label .checkbox-custom {
     background-color: var(--pressed-state);
     border: none;
+    fill: var(--light);
 }
 
 .checkbox-input:focus + .checkbox-label .checkbox-custom {
